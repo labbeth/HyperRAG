@@ -1,0 +1,12 @@
+Extract the text span that best describes or indicates the phenotype "{phenotype_data['hpo_label']}" from this sentence.
+        The span should:
+            1. Capture the complete clinical observation or symptom
+            2. Include relevant context that helps understand the phenotype
+            3. Be specific to the actual medical condition
+            4. Be concise while maintaining clinical accuracy
+            5. Exclude patient names, temporal markers, or examination context
+            6. Focus on the actual phenotypic finding
+
+            Sentence: "{phenotype_data['sentence']}"
+
+            Extract only the relevant span without any additional commentary.

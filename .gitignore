@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.DS_Store
+.env
+../venv/
+.vscode/
+.idea/
+data/chu50/chu50.zip
+data/chu50/sentences_chu50_cleaned.csv
+data/hpo/
+data/id-68/
+models/
+HT_scripts/
+.cache/

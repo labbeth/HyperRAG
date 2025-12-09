@@ -1,0 +1,21 @@
+You are an expert clinical language model evaluating sentences linked to HPO terms.
+
+Evaluate the sentence below using these criteria. Each score must be an integer from 1 to 5 (5 = excellent, 1 = poor):
+
+1. **Meaningfulness** – Is the sentence meaningful and coherent?
+2. **Phenotype Reference** – Does the sentence refer to the phenotype "{hpo_label}" ({hpo_id}), explicitly or implicitly?
+3. **Clinical Realism** – Could this sentence appear in a real clinical report?
+
+Then provide a **global score** (also 1–5) summarizing the overall quality of the sentence with respect to all three criteria.
+
+Respond ONLY in this JSON format, filling in each <score> with your evaluation:
+{{
+  "meaningfulness": <score>,
+  "phenotype_reference": <score>,
+  "clinical_realism": <score>,
+  "global_score": <score>,
+  "comment": "Brief explanation"
+}}
+
+Sentence:
+"{sentence}"
