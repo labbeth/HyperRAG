@@ -2,7 +2,7 @@
 
 ## Overview
 
-HyperRAG is a novel pipeline for extracting and linking entities referenced in ontologies from unstructured text.
+This is a novel pipeline for extracting and linking entities referenced in ontologies from unstructured text.
 The current implementation covers clinical reports from which phenotypes should be extracted to enhance diagnosis.
 
 It integrates Large Language Models (LLMs) for span detection, Dense Retrieval for candidate retrieval, and hierarchical reranking using hyperbolic embeddings trained on the Human Phenotype Ontology (HPO). 
