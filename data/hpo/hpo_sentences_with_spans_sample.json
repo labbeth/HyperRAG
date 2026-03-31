@@ -1,0 +1,140 @@
+{
+    "entries": [
+        {
+            "hpo_label": "All",
+            "hpo_id": "http://purl.obolibrary.org/obo/HP_0000001",
+            "sentences": [
+                "I observed that the individual exhibited a marked decrease in energy levels, often preferring to rest rather than engage in activities.",
+                "She presented with a persistent cough that lasted for over three weeks, which did not respond to standard treatments.",
+                "During the examination, Mr. Johnson had a heart rate of 120 bpm while at rest, which seemed unusually high for him.",
+                "They reported frequent headaches, occurring at least three times a week, impacting their daily activities significantly.",
+                "I noted that the skin on her hands was unusually dry and cracked, particularly around the knuckles.",
+                "Mrs. Thompson mentioned that her appetite has diminished, and she has lost approximately 5 kg in the last month.",
+                "The child displayed difficulty in concentrating during the assessment, often losing focus and appearing distracted.",
+                "I recorded that the individual had a high fever of 39.5\u00b0C, persisting for several days without any clear cause.",
+                "She described episodes of dizziness that occurred when standing up quickly, leading to several near-fainting spells.",
+                "During the physical exam, I found that his reflexes were hyperactive, with brisk responses noted in both upper and lower extremities."
+            ],
+            "prompt_tokens": 263,
+            "completion_tokens": 234,
+            "total_tokens": 497,
+            "spans": [
+                "marked decrease in energy levels",
+                "persistent cough",
+                "unusually high",
+                "frequent headaches",
+                "unusually dry and cracked",
+                "has diminished",
+                "difficulty in concentrating",
+                "high fever",
+                "dizziness",
+                "hyperactive reflexes"
+            ],
+            "token_usage": {
+                "input_tokens": 1623,
+                "output_tokens": 39,
+                "total_tokens": 1662,
+                "input_cost": 0.000276,
+                "output_cost": 2.6e-05,
+                "total_cost": 0.000302
+            }
+        },
+        {
+            "hpo_label": "Abnormality of body height",
+            "hpo_id": "http://purl.obolibrary.org/obo/HP_0000002",
+            "sentences": [
+                "I noticed that she stands at 140 cm, which is significantly below the expected height for her age group.",
+                "During the examination, Mr. Thompson appeared to be in the 5th percentile for height, raising some concerns.",
+                "He mentioned that his friends often comment on how short he is compared to them.",
+                "We measured their height at 120 cm, which is quite unusual for a 10-year-old boy.",
+                "I observed that she has always been shorter than her peers, often wearing shoes with elevated soles.",
+                "At the recent check-up, the nurse recorded his height as 150 cm, which is below the average for a 15-year-old.",
+                "Mrs. Johnson expressed frustration about her height, saying she feels out of place in social situations.",
+                "The growth chart indicates that he has not grown in height over the past year, remaining at 130 cm.",
+                "I saw that she was wearing a dress that seemed to be tailored for someone taller, emphasizing the height difference.",
+                "They reported that their family members are all of average height, making their shorter stature more noticeable."
+            ],
+            "prompt_tokens": 293,
+            "completion_tokens": 221,
+            "total_tokens": 514,
+            "spans": [
+                "significantly below the expected height",
+                "5th percentile for height",
+                "how short he is",
+                "120 cm, which is quite unusual",
+                "shorter than her peers",
+                "below the average for a 15-year-old",
+                "her height",
+                "not grown in height",
+                "height difference",
+                "shorter stature"
+            ],
+            "token_usage": {
+                "input_tokens": 3285,
+                "output_tokens": 104,
+                "total_tokens": 3389,
+                "input_cost": 0.000558,
+                "output_cost": 6.9e-05,
+                "total_cost": 0.000627
+            }
+        },
+		{
+            "hpo_label": "Triggered by smoking",
+            "hpo_id": "http://purl.obolibrary.org/obo/HP_0025223",
+            "sentences": [
+                "I noticed that Mr. Johnson experienced a persistent cough immediately after smoking a cigarette.",
+                "Symptoms such as wheezing were reported by her following tobacco use during social gatherings.",
+                "They stated that their asthma attacks seem to occur more frequently on days when they smoke.",
+                "A noticeable increase in heart rate was recorded after he had consumed cigarettes earlier in the day.",
+                "After engaging in smoking, shortness of breath was observed and documented during the examination.",
+                "The nurse noted that several patients have complained about headaches triggered by cigarette consumption.",
+                "Following his last smoke break, Mr. Thompson mentioned feeling lightheaded and dizzy for several hours afterward.",
+                "Coughing fits were triggered by tobacco use, especially when exposed to secondhand smoke at home.",
+                "She often experiences throat irritation whenever she lights up a cigarette in the evening.",
+                "It has been observed that symptoms like increased mucus production can flare up post-smoking sessions."
+            ],
+            "prompt_tokens": 357,
+            "completion_tokens": 185,
+            "total_tokens": 542,
+            "spans": [
+                "after smoking",
+                "following tobacco use",
+                "on days when they smoke",
+                "after he had consumed cigarettes",
+                "engaging in smoking",
+                "triggered by cigarette consumption",
+                "feeling lightheaded and dizzy",
+                "triggered by tobacco use",
+                "throat irritation whenever she lights up a cigarette",
+                "post-smoking sessions"
+            ],
+            "token_usage": {
+                "input_tokens": 1932197,
+                "output_tokens": 71018,
+                "total_tokens": 2003215,
+                "input_cost": 0.328473,
+                "output_cost": 0.046872,
+                "total_cost": 0.375345
+            }
+        }
+    ],
+    "usage_summary": {
+        "total_stats": {
+            "input_tokens": 35510078,
+            "output_tokens": 1454443,
+            "total_tokens": 36964521,
+            "input_cost": 6.036714,
+            "output_cost": 0.959932,
+            "total_cost": 6.996645999999999
+        },
+        "average_per_entry": {
+            "input_tokens": 1824.8665399044144,
+            "output_tokens": 74.74397451050928,
+            "total_tokens": 1899.6105144149237,
+            "input_cost": 0.00031022734981242615,
+            "output_cost": 4.933100364869726e-05,
+            "total_cost": 0.00035955835346112333
+        },
+        "entries_processed": 19459
+    }
+}
