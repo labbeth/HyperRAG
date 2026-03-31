@@ -1,4 +1,4 @@
-# HyperRAG: Hierarchy-Aware Retrieval-Augmented Generation with Hyperbolic Embeddings for Ontology-Based Entity Linking
+# Hierarchy-Aware Hyperbolic and Semantic Reranking for Ontology-Based Phenotype Linking
 
 ## Overview
 
