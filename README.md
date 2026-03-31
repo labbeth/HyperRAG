@@ -5,7 +5,7 @@
 HyperRAG is a novel pipeline for extracting and linking entities referenced in ontologies from unstructured text.
 The current implementation covers clinical reports from which phenotypes should be extracted to enhance diagnosis.
 
-It integrates Large Language Models (LLMs) for span detection, Retrieval-Augmented Generation (RAG) for candidate retrieval, and hierarchical reranking using hyperbolic embeddings trained on the Human Phenotype Ontology (HPO). 
+It integrates Large Language Models (LLMs) for span detection, Dense Retrieval for candidate retrieval, and hierarchical reranking using hyperbolic embeddings trained on the Human Phenotype Ontology (HPO). 
 
 The system is designed to capture both explicit and implicit phenotype mentions, leveraging the hierarchical structure of biomedical ontologies for improved accuracy and clinical relevance.
 
@@ -14,7 +14,7 @@ The system is designed to capture both explicit and implicit phenotype mentions,
 ## Features
 
 - **LLM-based Span Detection:** Identifies explicit and implicit phenotype mentions in clinical text.
-- **RAG with Euclidean and Hyperbolic Embeddings:** Retrieves candidate phenotypes using dense vector similarity.
+- **Dense Retrieval with Euclidean and Hyperbolic Embeddings:** Retrieves candidate phenotypes using dense vector similarity.
 - **Hierarchical Reranking:** Reranks candidates using hyperbolic distances, hybrid approach or alternative baselines such as late-interaction fine-tuned models.
 - **Ontology-Aware Evaluation:** Introduces new metrics that account for hierarchical relationships in HPO.
 - **Reproducible Data Generation:** All training and evaluation datasets, as well as prompts, are provided for reproducibility.
@@ -26,7 +26,7 @@ The system is designed to capture both explicit and implicit phenotype mentions,
 The pipeline consists of four main steps:
 
 1. **Span Detection:** Use a pretrained LLM (e.g., ChatGPT-3.5) to identify phenotype spans in clinical text.
-2. **Candidate Retrieval (RAG):** Compute dense embeddings for spans and retrieve top-k phenotype candidates from HPO using Euclidean or hyperbolic similarity.
+2. **Candidate Retrieval:** Compute dense embeddings for spans and retrieve top-k phenotype candidates from HPO using Euclidean or hyperbolic similarity.
 3. **Reranking:** Apply reranking strategy (e.g., euclidean, hyperbolic, hybrid, late-interaction)to refine candidates ranking.
 4. **Evaluation:** Assess performance using both standard and hierarchy-aware metrics.
 
