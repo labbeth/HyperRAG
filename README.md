@@ -169,7 +169,7 @@ Please cite our work if you use this code or data:
 
 ```
 @inproceedings{anonymous2025hyperrag,
-  title={HyperRAG: Hierarchy-Aware Retrieval-Augmented Generation with Hyperbolic Embeddings for Ontology-Based Entity Linking},
+  title={Hierarchy-Aware Hyperbolic and Semantic Reranking for Ontology-Based Phenotype Linking},
   author={Anonymous},
   booktitle={},
   year={2025}
