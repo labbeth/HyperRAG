@@ -168,25 +168,19 @@ For detailed results and analysis, please refer to our paper:
 Please cite our work if you use this code or data:
 
 ```
-@inproceedings{anonymous2025hyperrag,
+@inproceedings{tlabbe@hyperrag,
   title={Hierarchy-Aware Hyperbolic and Semantic Reranking for Ontology-Based Phenotype Linking},
-  author={Anonymous},
+  author={Thomas Labbé, Moussa Baddour, Axel Bonesteve, Paul Rollier, Marie de Tayrac, Olivier Dameron},
   booktitle={},
-  year={2025}
+  year={2026}
 }
 ```
 
 ## Authors and Contributors
 
-- **Project Lead:** Anonymous
-- **Main Author:** Anonymous
-- **Contributors:** Anonymous
-
-
-## Acknowledgment
-
-- Funding and computational resources: **Anonymous**
-- Clinical data and annotation support: **Anonymous**
+- **Project Lead:** Thomas Labbé
+- **Main Author:** Thomas Labbé
+- **Contributors:** Moussa Baddour, Axel Bonesteve, Paul Rollier, Marie de Tayrac, Olivier Dameron
 
 
 ## License
